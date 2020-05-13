@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/control.js"></script>
+</head>
+<body>
+   
+   <div id="info_box">
+       <ul>
+           <li>
+             <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
+		<path d="M503.402,228.885L273.684,19.567c-10.083-9.189-25.288-9.188-35.367-0.001L8.598,228.886
+			c-8.077,7.36-10.745,18.7-6.799,28.889c3.947,10.189,13.557,16.772,24.484,16.772h36.69v209.721
+			c0,8.315,6.742,15.057,15.057,15.057h125.914c8.315,0,15.057-6.741,15.057-15.057V356.932h74.002v127.337
+			c0,8.315,6.742,15.057,15.057,15.057h125.908c8.315,0,15.057-6.741,15.057-15.057V274.547h36.697
+			c10.926,0,20.537-6.584,24.484-16.772C514.147,247.585,511.479,236.246,503.402,228.885z"/>
+		<path d="M445.092,42.73H343.973l116.176,105.636v-90.58C460.149,49.471,453.408,42.73,445.092,42.73z"/>
+</svg>
+              9930 1234 5679 
+           </li>
+           <li>
+             <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+			<path d="M10.688,95.156C80.958,154.667,204.26,259.365,240.5,292.01c4.865,4.406,10.083,6.646,15.5,6.646
+				c5.406,0,10.615-2.219,15.469-6.604c36.271-32.677,159.573-137.385,229.844-196.896c4.375-3.698,5.042-10.198,1.5-14.719
+				C494.625,69.99,482.417,64,469.333,64H42.667c-13.083,0-25.292,5.99-33.479,16.438C5.646,84.958,6.313,91.458,10.688,95.156z"/>
+			<path d="M505.813,127.406c-3.781-1.76-8.229-1.146-11.375,1.542C416.51,195.01,317.052,279.688,285.76,307.885
+				c-17.563,15.854-41.938,15.854-59.542-0.021c-33.354-30.052-145.042-125-208.656-178.917c-3.167-2.688-7.625-3.281-11.375-1.542
+				C2.417,129.156,0,132.927,0,137.083v268.25C0,428.865,19.135,448,42.667,448h426.667C492.865,448,512,428.865,512,405.333
+				v-268.25C512,132.927,509.583,129.146,505.813,127.406z"/>
+</svg>
+              contact@domain.com 
+           </li>
+           <li>
+             <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="preserve">
+		<path d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
+			c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
+			c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
+			C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z"
+			/>
+</svg>
+              street address example 
+           </li>
+       </ul>
+   </div>
+   
+   <header class="flex__jcontent_start">
+        <div id="logo" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        
+         <button type="button" id="menu_btn">Menu</button>
+        
+        <nav id="main_nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </nav>
+        
+        <div id="filter">
+            <div id="title_filter" class="main_flex__nowrap flex__jcontent_end flex__align-content_center flex__align-items_center">
+                Filter 
+                <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 271.673 271.673" style="enable-background:new 0 0 271.673 271.673;" xml:space="preserve">
+
+			<path d="M114.939,0H10.449C4.678,0,0,4.678,0,10.449v104.49c0,5.771,4.678,10.449,10.449,10.449h104.49
+				c5.771,0,10.449-4.678,10.449-10.449V10.449C125.388,4.678,120.71,0,114.939,0z"/>
+			<path d="M261.224,0h-104.49c-5.771,0-10.449,4.678-10.449,10.449v104.49c0,5.771,4.678,10.449,10.449,10.449h104.49
+				c5.771,0,10.449-4.678,10.449-10.449V10.449C271.673,4.678,266.995,0,261.224,0z"/>
+			<path d="M114.939,146.286H10.449C4.678,146.286,0,150.964,0,156.735v104.49c0,5.771,4.678,10.449,10.449,10.449h104.49
+				c5.771,0,10.449-4.678,10.449-10.449v-104.49C125.388,150.964,120.71,146.286,114.939,146.286z"/>
+			<path d="M261.224,146.286h-104.49c-5.771,0-10.449,4.678-10.449,10.449v104.49c0,5.771,4.678,10.449,10.449,10.449h104.49
+				c5.771,0,10.449-4.678,10.449-10.449v-104.49C271.673,150.964,266.995,146.286,261.224,146.286z"/>
+</svg>
+            </div>
+            
+            <ul>
+                <li><a class="active" href="#">All Works</a></li>
+                <li><a href="#">web design</a></li>
+                <li><a href="#">illustrator</a></li>
+                <li><a href="#">photography</a></li>
+                <li><a href="#">wallpapers</a></li>
+                <li><a href="#">brochures</a></li>
+            </ul>
+        </div>
+        
+        <div id="soc_bar" class="main_flex__nowrap flex__jcontent_end flex__align-items_center">
+            <a href="#"><img src="img/soc-icon/webicon-behance.png" alt=""></a>
+            <a href="#"><img src="img/soc-icon/webicon-dribbble.png" alt=""></a>
+            <a href="#"><img src="img/soc-icon/webicon-facebook.png" alt=""></a>
+            <a href="#"><img src="img/soc-icon/webicon-flickr.png" alt=""></a>
+            <a href="#"><img src="img/soc-icon/webicon-googleplus.png" alt=""></a>
+            <a href="#"><img src="img/soc-icon/webicon-pinterest.png" alt=""></a>
+            <a href="#"><img src="img/soc-icon/webicon-twitter.png" alt=""></a>
+        </div>
+        
+        <P id="cop">© 2014 Kappe, All Rights Reserved</P>
+        
+    </header>
+    
+   <main>
+     <div class="wrap">
+            
+        <div id="list_post" class="main_flex flex__jcontent_between">
+            
+            <div class="column_post">
+                
+                <div class="box_post">
+                    
+                    <div class="img_post img_post_h1">
+                        <a href="Post.html"><img src="img/Works/01_Karelia_Nord/01.jpg" alt=""></a>
+                    </div>
+                    <div class="about_post">
+                        <h2>Gallery Post Example</h2>
+                        <p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who</p>
+                    </div>
+                    <div class="info_post main_flex__nowrap flex__align-items_cente">
+                        
+                        <div class="com_post main_flex__nowrap flex__align-content_center">
+                           <svg id="" enable-background="new 0 0 511.096 511.096" viewBox="0 0 511.096 511.096" xmlns="http://www.w3.org/2000/svg">
+                           <g id="Speech_Bubble_48_"><path d="m74.414 480.548h-36.214l25.607-25.607c13.807-13.807 22.429-31.765 24.747-51.246-59.127-38.802-88.554-95.014-88.554-153.944 0-108.719 99.923-219.203 256.414-219.203 165.785 0 254.682 101.666 254.682 209.678 0 108.724-89.836 210.322-254.682 210.322-28.877 0-59.01-3.855-85.913-10.928-25.467 26.121-59.973 40.928-96.087 40.928z"/></g>
+                           </svg>
+                            <p>3 comments</p>
+                        </div>
+                        
+                        <div class="date_post main_flex__nowrap flex__align-items_center">
+                           <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<path d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392
+			c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188
+			h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z"/>
+		<rect x="76" y="230" width="40" height="40"/>
+		<rect x="156" y="230" width="40" height="40"/>
+		<rect x="236" y="230" width="40" height="40"/>
+		<rect x="316" y="230" width="40" height="40"/>
+		<rect x="396" y="230" width="40" height="40"/>
+		<rect x="76" y="310" width="40" height="40"/>
+		<rect x="156" y="310" width="40" height="40"/>
+		<rect x="236" y="310" width="40" height="40"/>
+		<rect x="316" y="310" width="40" height="40"/>
+		<rect x="76" y="390" width="40" height="40"/>
+		<rect x="156" y="390" width="40" height="40"/>
+		<rect x="236" y="390" width="40" height="40"/>
+		<rect x="316" y="390" width="40" height="40"/>
+		<rect x="396" y="310" width="40" height="40"/>
+</svg>
+                            <p>Dec 19, 2019</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="box_post single_link img_post_h2">
+
+                     <a href="#">
+                        <svg  viewBox="-18 -18 572.00902 572"  xmlns="http://www.w3.org/2000/svg">
+                        <path d="m279.628906 143.855469c-4.851562-4.855469-12.722656-4.855469-17.582031 0-4.855469 4.851562-4.855469 12.726562 0 17.582031l94.164063 94.164062h-250.191407c-6.886719 0-12.472656 5.585938-12.472656 12.472657 0 6.890625 5.585937 12.472656 12.472656 12.472656h250.066407l-94.164063 94.164063c-2.335937 2.328124-3.648437 5.496093-3.648437 8.792968 0 3.300782 1.3125 6.460938 3.648437 8.792969 2.335937 2.355469 5.535156 3.660156 8.855469 3.617187 3.308594-.015624 6.484375-1.3125 8.851562-3.617187l115.367188-115.363281c2.347656-2.351563 3.65625-5.542969 3.621094-8.859375-.023438-3.308594-1.320313-6.472657-3.621094-8.851563zm0 0"/><path d="m268.15625-.0742188c-108.457031-.0195312-206.242188 65.3085938-247.746094 165.5117188-41.496094 100.207031-18.542968 215.542969 58.171875 292.210938 104.703125 104.703124 274.453125 104.703124 379.152344 0 104.699219-104.695313 104.699219-274.445313 0-379.148438-50.167969-50.453125-118.429687-78.746094-189.578125-78.5742188zm0 511.3554688c-134.074219 0-243.203125-109.132812-243.203125-243.207031s109.128906-243.203125 243.203125-243.203125 243.207031 109.128906 243.207031 243.203125-109.132812 243.207031-243.207031 243.207031zm0 0"/>
+                        </svg>
+                        
+                        <img src="img/Works/02_Mr_Greek/07.jpg" alt="">
+                     </a>
+                     
+                </div>
+                
+                <div class="box_post another main_flex flex__align-items_center flex__jcontent_center">
+                            <h3>Another Post Where you can put a link to a specific website</h3>
+                            <a href="#">http://www.therefore.net</a>
+                </div>
+                
+            </div>
+               
+            <div class="column_post">
+               
+                <div class="box_post another main_flex flex__align-items_center flex__jcontent_center">
+                            <h3>Another Post Where you can put a link to a specific website</h3>
+                            <a href="#">http://www.therefore.net</a>
+                </div> 
+                
+                <div class="box_post">
+                    
+                    <div class="img_post img_post_h1">
+                        <img src="img/Works/04_GK_Portofino/06.jpg" alt="">
+                    </div>
+                    <div class="about_post">
+                        <h2>Gallery Post Example</h2>
+                        <p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who</p>
+                    </div>
+                    <div class="info_post main_flex__nowrap flex__align-items_cente">
+                        
+                        <div class="com_post main_flex__nowrap flex__align-content_center">
+                           <svg id="" enable-background="new 0 0 511.096 511.096" viewBox="0 0 511.096 511.096" xmlns="http://www.w3.org/2000/svg">
+                           <g id="Speech_Bubble_48_"><path d="m74.414 480.548h-36.214l25.607-25.607c13.807-13.807 22.429-31.765 24.747-51.246-59.127-38.802-88.554-95.014-88.554-153.944 0-108.719 99.923-219.203 256.414-219.203 165.785 0 254.682 101.666 254.682 209.678 0 108.724-89.836 210.322-254.682 210.322-28.877 0-59.01-3.855-85.913-10.928-25.467 26.121-59.973 40.928-96.087 40.928z"/></g>
+                           </svg>
+                            <p>3 comments</p>
+                        </div>
+                        
+                        <div class="date_post main_flex__nowrap flex__align-items_center">
+                           <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<path d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392
+			c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188
+			h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z"/>
+		<rect x="76" y="230" width="40" height="40"/>
+		<rect x="156" y="230" width="40" height="40"/>
+		<rect x="236" y="230" width="40" height="40"/>
+		<rect x="316" y="230" width="40" height="40"/>
+		<rect x="396" y="230" width="40" height="40"/>
+		<rect x="76" y="310" width="40" height="40"/>
+		<rect x="156" y="310" width="40" height="40"/>
+		<rect x="236" y="310" width="40" height="40"/>
+		<rect x="316" y="310" width="40" height="40"/>
+		<rect x="76" y="390" width="40" height="40"/>
+		<rect x="156" y="390" width="40" height="40"/>
+		<rect x="236" y="390" width="40" height="40"/>
+		<rect x="316" y="390" width="40" height="40"/>
+		<rect x="396" y="310" width="40" height="40"/>
+</svg>
+                            <p>Dec 19, 2019</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="box_post">
+                    
+                    <div class="img_post img_post_h4">
+                        <img src="img/Works/05_True_Delivery/01.jpg" alt="">
+                    </div>
+                    <div class="about_post">
+                        <h2>Gallery Post Example</h2>
+                        <p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who</p>
+                    </div>
+                    
+                    
+                    <div class="info_post main_flex__nowrap flex__align-items_cente">
+                        
+                        <div class="com_post main_flex__nowrap flex__align-content_center">
+                           <svg id="" enable-background="new 0 0 511.096 511.096" viewBox="0 0 511.096 511.096" xmlns="http://www.w3.org/2000/svg">
+                           <g id="Speech_Bubble_48_"><path d="m74.414 480.548h-36.214l25.607-25.607c13.807-13.807 22.429-31.765 24.747-51.246-59.127-38.802-88.554-95.014-88.554-153.944 0-108.719 99.923-219.203 256.414-219.203 165.785 0 254.682 101.666 254.682 209.678 0 108.724-89.836 210.322-254.682 210.322-28.877 0-59.01-3.855-85.913-10.928-25.467 26.121-59.973 40.928-96.087 40.928z"/></g>
+                           </svg>
+                            <p>3 comments</p>
+                        </div>
+                        
+                        <div class="date_post main_flex__nowrap flex__align-items_center">
+                           <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<path d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392
+			c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188
+			h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z"/>
+		<rect x="76" y="230" width="40" height="40"/>
+		<rect x="156" y="230" width="40" height="40"/>
+		<rect x="236" y="230" width="40" height="40"/>
+		<rect x="316" y="230" width="40" height="40"/>
+		<rect x="396" y="230" width="40" height="40"/>
+		<rect x="76" y="310" width="40" height="40"/>
+		<rect x="156" y="310" width="40" height="40"/>
+		<rect x="236" y="310" width="40" height="40"/>
+		<rect x="316" y="310" width="40" height="40"/>
+		<rect x="76" y="390" width="40" height="40"/>
+		<rect x="156" y="390" width="40" height="40"/>
+		<rect x="236" y="390" width="40" height="40"/>
+		<rect x="316" y="390" width="40" height="40"/>
+		<rect x="396" y="310" width="40" height="40"/>
+</svg>
+                            <p>Dec 19, 2019</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="column_post">
+              
+                <div class="box_post single_link img_post_h2">
+
+                     <a href="#">
+                        <svg  viewBox="-18 -18 572.00902 572"  xmlns="http://www.w3.org/2000/svg">
+                        <path d="m279.628906 143.855469c-4.851562-4.855469-12.722656-4.855469-17.582031 0-4.855469 4.851562-4.855469 12.726562 0 17.582031l94.164063 94.164062h-250.191407c-6.886719 0-12.472656 5.585938-12.472656 12.472657 0 6.890625 5.585937 12.472656 12.472656 12.472656h250.066407l-94.164063 94.164063c-2.335937 2.328124-3.648437 5.496093-3.648437 8.792968 0 3.300782 1.3125 6.460938 3.648437 8.792969 2.335937 2.355469 5.535156 3.660156 8.855469 3.617187 3.308594-.015624 6.484375-1.3125 8.851562-3.617187l115.367188-115.363281c2.347656-2.351563 3.65625-5.542969 3.621094-8.859375-.023438-3.308594-1.320313-6.472657-3.621094-8.851563zm0 0"/><path d="m268.15625-.0742188c-108.457031-.0195312-206.242188 65.3085938-247.746094 165.5117188-41.496094 100.207031-18.542968 215.542969 58.171875 292.210938 104.703125 104.703124 274.453125 104.703124 379.152344 0 104.699219-104.695313 104.699219-274.445313 0-379.148438-50.167969-50.453125-118.429687-78.746094-189.578125-78.5742188zm0 511.3554688c-134.074219 0-243.203125-109.132812-243.203125-243.207031s109.128906-243.203125 243.203125-243.203125 243.207031 109.128906 243.207031 243.203125-109.132812 243.207031-243.207031 243.207031zm0 0"/>
+                        </svg>
+                        
+                        <img src="img/Works/07_My_Cheff/04.jpg" alt="">
+                     </a>
+                     
+                </div>
+               
+                <div class="box_post">
+                    
+                    <div class="img_post img_post_h5">
+                        <img src="img/Works/11_Al/01.jpg" alt="">
+                    </div>
+                    <div class="about_post">
+                        <h2>Gallery Post Example</h2>
+                        <p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who</p>
+                    </div>
+                    <div class="info_post main_flex__nowrap flex__align-items_cente">
+                        
+                        <div class="com_post main_flex__nowrap flex__align-content_center">
+                           <svg id="" enable-background="new 0 0 511.096 511.096" viewBox="0 0 511.096 511.096" xmlns="http://www.w3.org/2000/svg">
+                           <g id="Speech_Bubble_48_"><path d="m74.414 480.548h-36.214l25.607-25.607c13.807-13.807 22.429-31.765 24.747-51.246-59.127-38.802-88.554-95.014-88.554-153.944 0-108.719 99.923-219.203 256.414-219.203 165.785 0 254.682 101.666 254.682 209.678 0 108.724-89.836 210.322-254.682 210.322-28.877 0-59.01-3.855-85.913-10.928-25.467 26.121-59.973 40.928-96.087 40.928z"/></g>
+                           </svg>
+                            <p>3 comments</p>
+                        </div>
+                        
+                        <div class="date_post main_flex__nowrap flex__align-items_center">
+                           <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<path d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392
+			c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188
+			h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z"/>
+		<rect x="76" y="230" width="40" height="40"/>
+		<rect x="156" y="230" width="40" height="40"/>
+		<rect x="236" y="230" width="40" height="40"/>
+		<rect x="316" y="230" width="40" height="40"/>
+		<rect x="396" y="230" width="40" height="40"/>
+		<rect x="76" y="310" width="40" height="40"/>
+		<rect x="156" y="310" width="40" height="40"/>
+		<rect x="236" y="310" width="40" height="40"/>
+		<rect x="316" y="310" width="40" height="40"/>
+		<rect x="76" y="390" width="40" height="40"/>
+		<rect x="156" y="390" width="40" height="40"/>
+		<rect x="236" y="390" width="40" height="40"/>
+		<rect x="316" y="390" width="40" height="40"/>
+		<rect x="396" y="310" width="40" height="40"/>
+</svg>
+                            <p>Dec 19, 2019</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="box_post post_form">
+                    <h2>
+                        Aside Post format
+                    </h2>
+                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
+                </div>
+                
+            </div>
+            
+            <div class="column_post">
+             
+                 <div class="box_post rew main_flex__nowrap flex__align-items_center flex__jcontent_center">
+                     <h4>Logic will get you from A to B. Imagination will take you everywhere</h4>
+                     <p>"</p>
+                     <span>Albert Eistein</span>
+                 </div>
+                
+                 <div class="box_post">
+                    
+                    <div class="img_post img_post_h4">
+                        <img src="img/Works/06_River_Line/01.jpg" alt="">
+                    </div>
+                    <div class="about_post">
+                        <h2>Gallery Post Example</h2>
+                        <p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who</p>
+                    </div>
+                    <div class="info_post main_flex__nowrap flex__align-items_cente">
+                        
+                        <div class="com_post main_flex__nowrap flex__align-content_center">
+                           <svg id="" enable-background="new 0 0 511.096 511.096" viewBox="0 0 511.096 511.096" xmlns="http://www.w3.org/2000/svg">
+                           <g id="Speech_Bubble_48_"><path d="m74.414 480.548h-36.214l25.607-25.607c13.807-13.807 22.429-31.765 24.747-51.246-59.127-38.802-88.554-95.014-88.554-153.944 0-108.719 99.923-219.203 256.414-219.203 165.785 0 254.682 101.666 254.682 209.678 0 108.724-89.836 210.322-254.682 210.322-28.877 0-59.01-3.855-85.913-10.928-25.467 26.121-59.973 40.928-96.087 40.928z"/></g>
+                           </svg>
+                            <p>3 comments</p>
+                        </div>
+                        
+                        <div class="date_post main_flex__nowrap flex__align-items_center">
+                           <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<path d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392
+			c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188
+			h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z"/>
+		<rect x="76" y="230" width="40" height="40"/>
+		<rect x="156" y="230" width="40" height="40"/>
+		<rect x="236" y="230" width="40" height="40"/>
+		<rect x="316" y="230" width="40" height="40"/>
+		<rect x="396" y="230" width="40" height="40"/>
+		<rect x="76" y="310" width="40" height="40"/>
+		<rect x="156" y="310" width="40" height="40"/>
+		<rect x="236" y="310" width="40" height="40"/>
+		<rect x="316" y="310" width="40" height="40"/>
+		<rect x="76" y="390" width="40" height="40"/>
+		<rect x="156" y="390" width="40" height="40"/>
+		<rect x="236" y="390" width="40" height="40"/>
+		<rect x="316" y="390" width="40" height="40"/>
+		<rect x="396" y="310" width="40" height="40"/>
+</svg>
+                            <p>Dec 19, 2019</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+               
+                <div class="box_post">
+                    
+                    <div class="img_post img_post_h6">
+                        <img src="img/Works/08_Pushkarski/01.jpg" alt="">
+                    </div>
+                    <div class="about_post">
+                        <h2>Gallery Post Example</h2>
+                        <p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who</p>
+                    </div>
+                    <div class="info_post main_flex__nowrap flex__align-items_cente">
+                        
+                        <div class="com_post main_flex__nowrap flex__align-content_center">
+                           <svg id="" enable-background="new 0 0 511.096 511.096" viewBox="0 0 511.096 511.096" xmlns="http://www.w3.org/2000/svg">
+                           <g id="Speech_Bubble_48_"><path d="m74.414 480.548h-36.214l25.607-25.607c13.807-13.807 22.429-31.765 24.747-51.246-59.127-38.802-88.554-95.014-88.554-153.944 0-108.719 99.923-219.203 256.414-219.203 165.785 0 254.682 101.666 254.682 209.678 0 108.724-89.836 210.322-254.682 210.322-28.877 0-59.01-3.855-85.913-10.928-25.467 26.121-59.973 40.928-96.087 40.928z"/></g>
+                           </svg>
+                            <p>3 comments</p>
+                        </div>
+                        
+                        <div class="date_post main_flex__nowrap flex__align-items_center">
+                           <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<path d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392
+			c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188
+			h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z"/>
+		<rect x="76" y="230" width="40" height="40"/>
+		<rect x="156" y="230" width="40" height="40"/>
+		<rect x="236" y="230" width="40" height="40"/>
+		<rect x="316" y="230" width="40" height="40"/>
+		<rect x="396" y="230" width="40" height="40"/>
+		<rect x="76" y="310" width="40" height="40"/>
+		<rect x="156" y="310" width="40" height="40"/>
+		<rect x="236" y="310" width="40" height="40"/>
+		<rect x="316" y="310" width="40" height="40"/>
+		<rect x="76" y="390" width="40" height="40"/>
+		<rect x="156" y="390" width="40" height="40"/>
+		<rect x="236" y="390" width="40" height="40"/>
+		<rect x="316" y="390" width="40" height="40"/>
+		<rect x="396" y="310" width="40" height="40"/>
+</svg>
+                            <p>Dec 19, 2019</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+             <div class="column_post">
+                
+                 <div class="box_post">
+                    
+                    <div class="img_post img_post_h7">
+                        <img src="img/Works/04_GK_Portofino/02.jpg" alt="">
+                    </div>
+                    <div class="about_post">
+                        <h2>Gallery Post Example</h2>
+                        <p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who</p>
+                    </div>
+                    <div class="info_post main_flex__nowrap flex__align-items_cente">
+                        
+                        <div class="com_post main_flex__nowrap flex__align-content_center">
+                           <svg id="" enable-background="new 0 0 511.096 511.096" viewBox="0 0 511.096 511.096" xmlns="http://www.w3.org/2000/svg">
+                           <g id="Speech_Bubble_48_"><path d="m74.414 480.548h-36.214l25.607-25.607c13.807-13.807 22.429-31.765 24.747-51.246-59.127-38.802-88.554-95.014-88.554-153.944 0-108.719 99.923-219.203 256.414-219.203 165.785 0 254.682 101.666 254.682 209.678 0 108.724-89.836 210.322-254.682 210.322-28.877 0-59.01-3.855-85.913-10.928-25.467 26.121-59.973 40.928-96.087 40.928z"/></g>
+                           </svg>
+                            <p>3 comments</p>
+                        </div>
+                        
+                        <div class="date_post main_flex__nowrap flex__align-items_center">
+                           <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<path d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392
+			c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188
+			h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z"/>
+		<rect x="76" y="230" width="40" height="40"/>
+		<rect x="156" y="230" width="40" height="40"/>
+		<rect x="236" y="230" width="40" height="40"/>
+		<rect x="316" y="230" width="40" height="40"/>
+		<rect x="396" y="230" width="40" height="40"/>
+		<rect x="76" y="310" width="40" height="40"/>
+		<rect x="156" y="310" width="40" height="40"/>
+		<rect x="236" y="310" width="40" height="40"/>
+		<rect x="316" y="310" width="40" height="40"/>
+		<rect x="76" y="390" width="40" height="40"/>
+		<rect x="156" y="390" width="40" height="40"/>
+		<rect x="236" y="390" width="40" height="40"/>
+		<rect x="316" y="390" width="40" height="40"/>
+		<rect x="396" y="310" width="40" height="40"/>
+</svg>
+                            <p>Dec 19, 2019</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+               
+                <div class="box_post">
+                    
+                    <div class="img_post img_post_h4">
+                        <img src="img/Works/14_Step_up/01.jpg" alt="">
+                    </div>
+                    <div class="about_post">
+                        <h2>Gallery Post Example</h2>
+                        <p>A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who</p>
+                    </div>
+                    <div class="info_post main_flex__nowrap flex__align-items_cente">
+                        
+                        <div class="com_post main_flex__nowrap flex__align-content_center">
+                           <svg id="" enable-background="new 0 0 511.096 511.096" viewBox="0 0 511.096 511.096" xmlns="http://www.w3.org/2000/svg">
+                           <g id="Speech_Bubble_48_"><path d="m74.414 480.548h-36.214l25.607-25.607c13.807-13.807 22.429-31.765 24.747-51.246-59.127-38.802-88.554-95.014-88.554-153.944 0-108.719 99.923-219.203 256.414-219.203 165.785 0 254.682 101.666 254.682 209.678 0 108.724-89.836 210.322-254.682 210.322-28.877 0-59.01-3.855-85.913-10.928-25.467 26.121-59.973 40.928-96.087 40.928z"/></g>
+                           </svg>
+                            <p>3 comments</p>
+                        </div>
+                        
+                        <div class="date_post main_flex__nowrap flex__align-items_center">
+                           <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<path d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392
+			c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188
+			h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z"/>
+		<rect x="76" y="230" width="40" height="40"/>
+		<rect x="156" y="230" width="40" height="40"/>
+		<rect x="236" y="230" width="40" height="40"/>
+		<rect x="316" y="230" width="40" height="40"/>
+		<rect x="396" y="230" width="40" height="40"/>
+		<rect x="76" y="310" width="40" height="40"/>
+		<rect x="156" y="310" width="40" height="40"/>
+		<rect x="236" y="310" width="40" height="40"/>
+		<rect x="316" y="310" width="40" height="40"/>
+		<rect x="76" y="390" width="40" height="40"/>
+		<rect x="156" y="390" width="40" height="40"/>
+		<rect x="236" y="390" width="40" height="40"/>
+		<rect x="316" y="390" width="40" height="40"/>
+		<rect x="396" y="310" width="40" height="40"/>
+</svg>
+                            <p>Dec 19, 2019</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+               
+        <div class="main_flex__nowrap flex__jcontent_center">
+            <button class="more" type="button">Older Posts</button>
+        </div>
+                
+     </div>
+     
+   </main>
+   
+</body>
+
+</html>
